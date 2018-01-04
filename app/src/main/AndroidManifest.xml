@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ElyAdam.AELYProject2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="To Do List"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainToDoList" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddToDoList"
+            android:label="Add to do list">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainToDoList" />
+        </activity>
+        <activity
+            android:name=".ToDoListItems"
+            android:label="To Do List Items">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainToDoList" />
+        </activity>
+        <activity
+            android:name=".AddItem"
+            android:label="Add Item">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ToDoListItems" />
+        </activity>
+    </application>
+
+</manifest>

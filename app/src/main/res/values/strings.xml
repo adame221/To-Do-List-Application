@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android To Do List</string>
+
+    <string name="add_item">ADD ITEM</string>
+    <string name="about">about</string>
+    <string name="no_lists">There are no To Do Lists to display</string>
+    <string name="list_name">List Name:</string>
+    <string name="list_name_required">Please enter a list name</string>
+    <string name="edit_list_name">editListName</string>
+    <string name="edit_items_text">editItemsText</string>
+    <string name="items_array">itemsArray</string>
+    <string name="item">Item:</string>
+    <string name="edit_item">editItem</string>
+    <string name="items_text">itemsText</string>
+    <string name="new_items">newItems</string>
+    <string name="new_items_array">newItemsArray</string>
+</resources>
